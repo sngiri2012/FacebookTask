@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.Sunrisesoftware.FacebookTask.RunnerClassTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 355.006 sec <<< FAILURE!
+Then the user should be navigated to the selcted event(Scenario: User should able to select the dynamic contents)  Time elapsed: 1.718 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for js return document.readyState=="complete"; to be executable (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-6E953G70', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Sreedhar\AppData\Local\Temp\scoped_dir9060_1460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: be7472a402bdcec8cb43ee164dea035e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.Sunrisesoftware.FacebookTask.BaseClass.waitForPageLoad(BaseClass.java:22)
+	at com.Sunrisesoftware.FacebookTask.Pageobjects.NewsFeedHomePage.getTitle(NewsFeedHomePage.java:39)
+	at com.Sunrisesoftware.FacebookTask.StepDeffsforFacebookTask.the_user_should_be_navigated_to_the_selcted_event(StepDeffsforFacebookTask.java:101)
+	at ?.Then the user should be navigated to the selcted event(facebookTaskFeature.feature:16)
+
+Scenario: User should able to select the dynamic contents  Time elapsed: 1.721 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for js return document.readyState=="complete"; to be executable (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-6E953G70', ip: '192.168.0.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Sreedhar\AppData\Local\Temp\scoped_dir9060_1460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: be7472a402bdcec8cb43ee164dea035e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.Sunrisesoftware.FacebookTask.BaseClass.waitForPageLoad(BaseClass.java:22)
+	at com.Sunrisesoftware.FacebookTask.Pageobjects.NewsFeedHomePage.getTitle(NewsFeedHomePage.java:39)
+	at com.Sunrisesoftware.FacebookTask.StepDeffsforFacebookTask.the_user_should_be_navigated_to_the_selcted_event(StepDeffsforFacebookTask.java:101)
+	at ?.Then the user should be navigated to the selcted event(facebookTaskFeature.feature:16)
+
